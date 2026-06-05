@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +16,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 <div class="container">
 
-<a class="navbar-brand" href="index.html">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+<img src="images/logo.jpg" width="45" height="45" class="me-2 rounded-circle" alt="Logo">
 Tiffany's Course Portal
 </a>
 
@@ -27,10 +29,21 @@ Tiffany's Course Portal
 
 <ul class="navbar-nav ms-auto">
 
-<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
-<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-<li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="courses.html">Courses</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="contact.html">Contact</a>
+</li>
 
 <li class="nav-item">
 <a class="btn btn-light ms-lg-3" href="registration.html">Login</a>
@@ -43,22 +56,22 @@ Tiffany's Course Portal
 </nav>
 
 <!-- HEADER -->
-<section class="text-center py-4 bg-light">
+<section class="text-center py-5 bg-light">
 <div class="container">
-<h2 class="fw-bold">Contact Us</h2>
-<p class="text-muted">We are here to help you anytime</p>
+<h1>Contact Us</h1>
+<p class="lead">We are here to help you anytime</p>
 </div>
 </section>
 
 <!-- ALERT -->
 <div class="container mt-3">
-<div class="alert alert-info">
+<div class="alert alert-info text-center">
 For any queries related to courses, registration, or support — feel free to contact us.
 </div>
 </div>
 
 <!-- CONTACT FORM -->
-<section class="container py-4">
+<section class="container py-5">
 
 <div class="row justify-content-center">
 
@@ -68,12 +81,12 @@ For any queries related to courses, registration, or support — feel free to co
 
 <div class="mb-3">
 <label class="form-label">Name</label>
-<input type="text" class="form-control" placeholder="Enter your name">
+<input type="text" class="form-control" placeholder="Enter your name" required>
 </div>
 
 <div class="mb-3">
 <label class="form-label">Email</label>
-<input type="email" class="form-control" placeholder="Enter your email">
+<input type="email" class="form-control" placeholder="Enter your email" required>
 </div>
 
 <div class="mb-3">
@@ -83,11 +96,11 @@ For any queries related to courses, registration, or support — feel free to co
 
 <div class="mb-3">
 <label class="form-label">Message</label>
-<textarea class="form-control" rows="5" placeholder="Write your message"></textarea>
+<textarea class="form-control" rows="5" placeholder="Write your message" required></textarea>
 </div>
 
 <div class="d-grid gap-2">
-<button class="btn btn-primary">Send Message</button>
+<button type="submit" class="btn btn-primary">Send Message</button>
 <button type="reset" class="btn btn-secondary">Reset</button>
 </div>
 
@@ -100,7 +113,7 @@ For any queries related to courses, registration, or support — feel free to co
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white text-center p-3 mt-4">
+<footer class="bg-dark text-white text-center p-3">
 <p class="mb-1">© 2026 Tiffany's Online Course Portal</p>
 <p class="mb-0">Facebook | Instagram | LinkedIn</p>
 </footer>

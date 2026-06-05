@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +12,10 @@
 
 <body>
 
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 <div class="container">
+
 <a class="navbar-brand" href="index.html">Course Portal</a>
 
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
@@ -20,21 +23,24 @@
 </button>
 
 <div class="collapse navbar-collapse" id="nav">
+
 <ul class="navbar-nav ms-auto">
 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
 <li class="nav-item"><a class="nav-link active" href="registration.html">Register</a></li>
 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 </ul>
+
 </div>
 </div>
 </nav>
 
+<!-- FORM -->
 <div class="container py-5">
 
 <h2 class="text-center mb-4">Student Registration</h2>
 
-<form class="shadow p-4 bg-white rounded">
+<form class="shadow p-4 bg-white rounded" onsubmit="return showMessage()">
 
 <div class="row">
 
@@ -51,16 +57,16 @@
 </div>
 
 <div class="col-md-6 mb-3">
-<select class="form-select">
-<option>Select Gender</option>
+<select class="form-select" required>
+<option value="">Select Gender</option>
 <option>Male</option>
 <option>Female</option>
 </select>
 </div>
 
 <div class="col-md-6 mb-3">
-<select class="form-select">
-<option>Select Course</option>
+<select class="form-select" required>
+<option value="">Select Course</option>
 <option>Web Development</option>
 <option>Python</option>
 <option>Data Science</option>
@@ -75,7 +81,7 @@
 </div>
 
 <div class="col-12 mb-3">
-<textarea class="form-control" placeholder="Address"></textarea>
+<textarea class="form-control" placeholder="Address" required></textarea>
 </div>
 
 <div class="col-12 mb-3">
@@ -83,17 +89,34 @@
 </div>
 
 <div class="form-check mb-3">
-<input class="form-check-input" type="checkbox">
-<label>I agree to terms</label>
+<input class="form-check-input" type="checkbox" required>
+<label class="form-check-label">I agree to terms</label>
 </div>
 
 </div>
 
-<button class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary w-100">
+Submit
+</button>
 
 </form>
 
+<!-- SUCCESS MESSAGE -->
+<div class="alert alert-success mt-3 text-center" id="msg" style="display:none;">
+🎉 Registration Successful! We will contact you soon.
 </div>
+
+</div>
+
+<!-- SCRIPT -->
+<script>
+function showMessage() {
+    document.getElementById("msg").style.display = "block";
+    return false; // stop page reload
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

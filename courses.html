@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About - Online Course Portal</title>
+<title>Courses - Online Course Portal</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -15,11 +16,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 <div class="container">
 
-<a class="navbar-brand" href="index.html">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+<img src="images/logo.jpg" width="45" height="45" class="me-2 rounded-circle" alt="Logo">
 Tiffany's Course Portal
 </a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
 <span class="navbar-toggler-icon"></span>
 </button>
 
@@ -28,13 +30,10 @@ Tiffany's Course Portal
 <ul class="navbar-nav ms-auto">
 
 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
-<li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-
-<li class="nav-item">
-<a class="btn btn-light ms-lg-3" href="registration.html">Login</a>
-</li>
+<li class="nav-item"><a class="btn btn-light ms-lg-3" href="registration.html">Login</a></li>
 
 </ul>
 
@@ -43,107 +42,132 @@ Tiffany's Course Portal
 </nav>
 
 <!-- HEADER -->
-<section class="text-center py-4 bg-light">
+<section class="text-center py-5 bg-light">
 <div class="container">
-<h2 class="fw-bold">About Our Institute</h2>
-<p class="text-muted">Learn more about our mission, vision, and trainers</p>
+<h1>Our Courses</h1>
+<p class="lead">Choose from industry-ready programs</p>
 </div>
 </section>
 
-<!-- ACCORDION -->
+<!-- COURSES GRID -->
 <section class="container py-5">
 
-<div class="accordion" id="acc">
+<div class="row">
 
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#one">
-Our History
-</button>
-</h2>
-<div id="one" class="accordion-collapse collapse show">
-<div class="accordion-body">
-We started in 2020 with a mission to provide quality online education and skill development programs for students.
-</div>
-</div>
-</div>
-
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#two">
-Vision
-</button>
-</h2>
-<div id="two" class="accordion-collapse collapse">
-<div class="accordion-body">
-Our vision is to become a leading online learning platform that empowers students with industry-ready skills.
+<!-- Web Development -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/web.jpg" class="card-img-top" alt="Web Development">
+<div class="card-body text-center">
+<h5>Web Development</h5>
+<p>HTML, CSS, JS, Bootstrap</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Fee:</b> ₹15000</p>
 </div>
 </div>
 </div>
 
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#three">
-Mission
-</button>
-</h2>
-<div id="three" class="accordion-collapse collapse">
-<div class="accordion-body">
-Our mission is to provide affordable, practical, and high-quality education for every learner.
+<!-- Python -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/python.jpg" class="card-img-top" alt="Python">
+<div class="card-body text-center">
+<h5>Python Programming</h5>
+<p>Basics to Advanced Python</p>
+<p><b>Duration:</b> 2 Months</p>
+<p><b>Fee:</b> ₹12000</p>
 </div>
 </div>
 </div>
 
+<!-- Data Science -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/data-science.jpg" class="card-img-top" alt="Data Science">
+<div class="card-body text-center">
+<h5>Data Science</h5>
+<p>AI, ML, Data Analysis</p>
+<p><b>Duration:</b> 4 Months</p>
+<p><b>Fee:</b> ₹20000</p>
 </div>
-
-</section>
-
-<!-- TRAINERS -->
-<section class="container pb-5">
-
-<h3 class="text-center mb-4">Our Trainers</h3>
-
-<div class="row g-4">
-
-<div class="col-12 col-md-6 col-lg-4">
-<div class="card text-center shadow h-100 p-3">
-<h5>John Doe</h5>
-<p>Web Development Trainer</p>
 </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4">
-<div class="card text-center shadow h-100 p-3">
-<h5>Jane Smith</h5>
-<p>Python Trainer</p>
+<!-- Artificial Intelligence -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/ai.jpg" class="card-img-top" alt="AI">
+<div class="card-body text-center">
+<h5>Artificial Intelligence</h5>
+<p>Neural Networks, Deep Learning</p>
+<p><b>Duration:</b> 4 Months</p>
+<p><b>Fee:</b> ₹25000</p>
 </div>
-</div>
-
-<div class="col-12 col-md-6 col-lg-4">
-<div class="card text-center shadow h-100 p-3">
-<h5>Michael Brown</h5>
-<p>Data Science Trainer</p>
-</div>
-</div>
-
-<div class="col-12 col-md-6 col-lg-4">
-<div class="card text-center shadow h-100 p-3">
-<h5>Sarah Johnson</h5>
-<p>AI & ML Trainer</p>
 </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4">
-<div class="card text-center shadow h-100 p-3">
-<h5>David Wilson</h5>
-<p>Java Trainer</p>
+<!-- Machine Learning -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/ml.jpg" class="card-img-top" alt="ML">
+<div class="card-body text-center">
+<h5>Machine Learning</h5>
+<p>Supervised & Unsupervised Learning</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Fee:</b> ₹22000</p>
+</div>
 </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4">
-<div class="card text-center shadow h-100 p-3">
-<h5>Emily Davis</h5>
-<p>Cloud Computing Trainer</p>
+<!-- Java -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/java.png" class="card-img-top" alt="Java">
+<div class="card-body text-center">
+<h5>Java Programming</h5>
+<p>Core Java + OOPs</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Fee:</b> ₹18000</p>
+</div>
+</div>
+</div>
+
+<!-- Cloud Computing -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/cloud.jpg" class="card-img-top" alt="Cloud">
+<div class="card-body text-center">
+<h5>Cloud Computing</h5>
+<p>AWS, Azure Basics</p>
+<p><b>Duration:</b> 2 Months</p>
+<p><b>Fee:</b> ₹20000</p>
+</div>
+</div>
+</div>
+
+<!-- Cyber Security -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/cyber.jpg" class="card-img-top" alt="Cyber Security">
+<div class="card-body text-center">
+<h5>Cyber Security</h5>
+<p>Ethical Hacking Basics</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Fee:</b> ₹23000</p>
+</div>
+</div>
+</div>
+
+<!-- UI/UX Design -->
+<div class="col-md-4 mb-4">
+<div class="card shadow h-100">
+<img src="images/uiux.jpg" class="card-img-top" alt="UI UX">
+<div class="card-body text-center">
+<h5>UI/UX Design</h5>
+<p>Figma, Adobe XD</p>
+<p><b>Duration:</b> 2 Months</p>
+<p><b>Fee:</b> ₹14000</p>
+</div>
 </div>
 </div>
 
@@ -152,9 +176,8 @@ Our mission is to provide affordable, practical, and high-quality education for 
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white text-center p-3 mt-4">
-<p class="mb-1">© 2026 Tiffany's Online Course Portal</p>
-<p class="mb-0">Facebook | Instagram | LinkedIn</p>
+<footer class="bg-dark text-white text-center p-3">
+<p>© 2026 Tiffany's Online Course Portal</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
