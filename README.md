@@ -172,18 +172,8 @@ Repository Link:
 [https://github.com/your-username/online-course-portal](https://github.com/your-username/online-course-portal)
 
 ---
+## Author
 
-## License
+**Kammalapally Navya**
 
-This project is created for educational purposes only.
-
----
-
-# 👍 If you want next upgrade
-
-I can also:
-
-* Convert this into a **professional GitHub README with badges**
-* Help you **deploy on GitHub Pages**
-* Add **real backend + database version**
-* Or convert it into a **full e-commerce MART project (shopping site style)**
+Online Course Registration Portal
