@@ -1,4 +1,4 @@
-# 📘 Online Course Portal
+# Online Course Portal
 
 ## Project Overview
 
