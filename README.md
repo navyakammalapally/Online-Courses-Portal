@@ -169,7 +169,7 @@ online-course-portal/
 
 Repository Link:
 
-[https://github.com/your-username/online-course-portal](https://github.com/navyakammalapally/Online-Courses-Portal)
+https://github.com/navyakammalapally/Online-Courses-Portal
 
 ---
 ## Author
