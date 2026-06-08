@@ -165,15 +165,7 @@ online-course-portal/
 
 ---
 
-## GitHub Repository
+## Live Demo
 
-Repository Link:
+https://navyakammalapally.github.io/Online-Courses-Portal/
 
-https://github.com/navyakammalapally/Online-Courses-Portal
-
----
-## Author
-
-**Kammalapally Navya**
-
-Online Course Registration Portal
