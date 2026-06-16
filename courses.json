@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Web Development",
+    "duration": "3 Months",
+    "fee": 15000
+  },
+  {
+    "id": 3,
+    "name": "Data Science",
+    "duration": "4 Months",
+    "fee": 20000
+  }
+]

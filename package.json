@@ -1,0 +1,25 @@
+{
+  "name": "online-courses",
+  "version": "1.0.0",
+  "description": "The Online Course Portal is a responsive web-based application developed using HTML5, CSS3, Bootstrap 5, and JavaScript. The portal allows users to browse courses, view details, register online, and contact the institute.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navyakammalapally/Online-Courses-Portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/navyakammalapally/Online-Courses-Portal/issues"
+  },
+  "homepage": "https://github.com/navyakammalapally/Online-Courses-Portal#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
