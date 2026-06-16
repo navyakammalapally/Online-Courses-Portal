@@ -102,7 +102,11 @@ online-course-portal/
 ├── about.html
 ├── contact.html
 ├── registration.html
-├── README.md
+│
+├── server.js
+├── courses.json
+├── package.json
+├── package-lock.json
 │
 ├── css/
 │   └── style.css
@@ -119,15 +123,53 @@ online-course-portal/
 │   ├── cyber.jpg
 │   └── uiux.jpg
 │
-└── screenshots/
-    ├── home.png
-    ├── courses.png
-    ├── about.png
-    ├── contact.png
-    └── registration.png
+├── screenshots/
+│   ├── home.png
+│   ├── courses.png
+│   ├── about.png
+│   ├── contact.png
+│   ├── registration.png
+│   ├── mobile-view.png
+│   └── tablet-view.png
+│
+└── README.md
 ```
 
 ---
+
+## Backend (Node.js + Express)
+
+The backend of this project is built using **Node.js** with the **Express framework**.
+
+It provides REST APIs for managing courses data using a JSON file as a temporary database.
+
+### Features
+
+- Built using Node.js runtime
+- Express server for routing
+- REST API implementation (CRUD)
+- JSON file-based storage (courses.json)
+- Middleware for parsing JSON data
+
+---
+
+## API Endpoints
+
+GET    /courses        - Get all courses
+GET    /courses/:id    - Get course by ID
+POST   /courses        - Add new course
+PUT    /courses/:id    - Update course
+DELETE /courses/:id    - Delete course
+
+---
+
+## Node.js Concepts Used
+
+- Express server setup
+- Routing (GET, POST, PUT, DELETE)
+- File System module (fs)
+- JSON handling
+- REST API design
 
 ## Screenshots
 
@@ -165,7 +207,7 @@ online-course-portal/
 
 ---
 
-## Live Demo
+## Live Demo (Frontend Only)
 
 https://navyakammalapally.github.io/Online-Courses-Portal/
 
