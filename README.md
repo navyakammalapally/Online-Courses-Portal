@@ -155,11 +155,11 @@ It provides REST APIs for managing courses data using a JSON file as a temporary
 
 ## API Endpoints
 
-GET    /courses        - Get all courses
-GET    /courses/:id    - Get course by ID
-POST   /courses        - Add new course
-PUT    /courses/:id    - Update course
-DELETE /courses/:id    - Delete course
+- **GET /courses** → Get all courses  
+- **GET /courses/:id** → Get course by ID  
+- **POST /courses** → Add new course  
+- **PUT /courses/:id** → Update course  
+- **DELETE /courses/:id** → Delete course
 
 ---
 
